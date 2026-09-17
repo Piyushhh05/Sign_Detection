@@ -1,5 +1,5 @@
 
- # Sign Language Detection System
+# 📌 Sign Language Detection System
 
 A real-time gesture-recognition web application that uses computer vision to detect hand gestures via webcam and classify them as sign-language symbols.
 
@@ -33,25 +33,6 @@ This project combines live hand-tracking with a trained classifier to recognize 
 3. **Feature vector** — Landmark coordinates are normalized and converted into a fixed-length feature vector using NumPy.
 4. **Classification** — The feature vector is passed to a trained Scikit-learn classifier, which predicts the corresponding gesture/sign.
 5. **Display** — The predicted label is rendered back to the user through the web front-end in real time.
-
-## Project Structure
-
-```
-sign-language-detection/
-├── data/                  # <FILL IN: raw/processed gesture data, if included>
-├── model/                 # Trained classifier artifact(s)
-├── src/
-│   ├── capture.py         # Webcam capture + frame handling
-│   ├── landmarks.py       # MediaPipe hand-landmark extraction
-│   ├── features.py        # Landmark → feature vector conversion
-│   ├── train.py           # Model training script
-│   └── predict.py         # Real-time inference loop
-├── static/                # Front-end assets (CSS/JS)
-├── templates/              # HTML templates
-├── requirements.txt
-└── README.md
-```
-> Adjust this structure to match your actual repo layout.
 
 ## Model Details
 
