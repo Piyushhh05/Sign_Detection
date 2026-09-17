@@ -1,5 +1,5 @@
 
-📌 # Sign Language Detection System
+ # Sign Language Detection System
 
 A real-time gesture-recognition web application that uses computer vision to detect hand gestures via webcam and classify them as sign-language symbols.
 
